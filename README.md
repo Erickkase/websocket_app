@@ -25,3 +25,16 @@ docker run -p 8765:8765 websocket-app
 - `main.py`: servidor WebSocket.
 - `client.py`: cliente WebSocket para pruebas.
 - `requirements.txt`: dependencias del proyecto.
+
+# WebSocket App Dockerized
+
+Este proyecto es una app WebSocket básica en Python, empaquetada y lista para ejecutarse usando Docker.
+
+## Ejecutar desde imagen pública de Docker Hub
+
+1. Asegúrate de tener [Docker instalado](https://www.docker.com/products/docker-desktop)
+2. Abre una terminal y ejecuta:
+
+```bash
+docker pull erickkase/websocket_app
+docker run -p 8000:8000 erickkase/websocket_app

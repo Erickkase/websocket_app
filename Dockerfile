@@ -11,7 +11,7 @@ COPY . .
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Expone el puerto (ajustar si el main.py usa otro)
-EXPOSE 8765
+EXPOSE 8000
 
 # Comando por defecto para ejecutar el servidor
 CMD ["python", "main.py"]
